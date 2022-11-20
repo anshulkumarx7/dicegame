@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:rgb(24, 24, 77);
+    height:90vh;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0.2rem 0.2rem 0.1rem black;
+
+}
+.left-padding{
+    padding-left:2rem;
+}
+.right-padding{
+    padding-right:2rem;
+}
+#container{
+    width:70%;
+    margin:auto;
+    height:100%;
+    text-align:center;
+}
+#container h1{
+    padding:3.5rem 0 3rem 0;
+    font-size:3rem;
+    color:#4ECCA3;
+    text-align: center;
+}
+.dice{
+    text-align:center;
+}
+.players{
+    display:flex;
+    text-align: center;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+
+}
+.dice p{
+    color:#4ECCA3;
+    font-size:3rem;
+    font-weight: bolder;
+
+}
+footer{
+    
+    text-align:center;
+    font-size:2rem;
+    color:white;
+}
+footer .heart{
+    color:red;
+}
+@media (min-width:517px) and (max-width:680px) {
+    .dice img{
+        width:100%;
+    }
+}
+
+@media (min-width:471px) and (max-width:516px)  {
+    .dice img{
+        width:100%;
+    }
+    .dice p{
+        font-size: 2.7rem;
+    }
+    #container h1{
+        font-size:2.7rem;
+    }
+}
+@media (min-width:374px) and (max-width:471px)  {
+    .dice img{
+        width:100%;
+    }
+    .dice p{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    #container h1{
+        font-size:2.5rem;
+        padding:3rem 0 3rem 0;
+    }
+    footer{
+        font-size:1.5rem;
+    }
+}
+@media only screen and (max-width:373px){
+    .dice img{
+        width:50%;
+    }
+    .dice p{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    #container h1{
+        font-size:2.3rem;
+        padding:2.5rem 0 3rem 0;
+    }
+    footer{
+        font-size:1.5rem;
+    }
+    .left-padding{
+        padding-left:0;
+    }
+    .right-padding{
+        padding-right:0;
+    }
+    .players{
+        flex-direction:column;
+        /* justify-content: center; */
+
+    }
+}
+
